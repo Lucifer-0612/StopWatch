@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Honk&display=swap');
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(circle at top right, #ff8a00, red, #e52e71);
+}
+
+#heading
+{
+    font-family:Honk, serif;
+    font-size: 12rem;
+    
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+    
+    backdrop-filter: blur(50%);
+}
+
+#display
+{
+    font-size: 8rem;
+    font-family:Bungee Spice, monospace;
+    margin-bottom: 20px;
+    color: hsl(208, 54%, 65%);
+    text-shadow: 5px 5px 2px rgb(24, 54, 25);
+}
+
+.controls button{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    min-width: 125px;
+    cursor: pointer;
+    margin: 15px;
+    color: rgb(253, 253, 253);
+    text-shadow: 3px 3px 2px rgb(27, 27, 29);
+    background-color: rgb(123, 114, 6);
+    transition: background-color 0.5s ease;
+}
+
+#startbtn:hover
+{
+    background-color: hsl(124, 54%, 55%);
+}
+
+#stopbtn:hover
+{
+    background-color: hsl(35, 100%, 59%);
+}
+
+#reset:hover
+{
+    background-color: hsl(207, 95%, 75%);
+}
+
